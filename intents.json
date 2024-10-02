@@ -1,0 +1,182 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!I am a chat bot specifically designed for assisting with medical conditions. How may I help you?", "hello! I am a chat bot to assist you in your medical emergency you can share your symptoms!", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["I hope I could assist you with my help(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "programming",
+      "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding or software development, means writing computer code to automate tasks."]
+    },
+    {"tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name?"],
+      "responses": ["My name is neura. I am a virtual medical Assistant Chatbot","hey there!,I am Neura I am here to provide you with any medical assistance","Myself neura."]
+    },
+
+    {"tag": "Developer",
+      "patterns": ["Who created you?", "Who Developes you?", "Tell me about your creator?"],
+      "responses": ["I am a healthcare chat bot developed by Ishmeet", "I was Developed by Ishmeet"]
+    }  ,
+    {
+      "tag": "diabetic coma",
+      "patterns": ["unconsciousness", "difficulty breathing", "rapid heartbeat", "cold, clammy skin"],
+      "responses": [
+        "It sounds like someone might be experiencing a diabetic coma. Call emergency services immediately.",
+        "Is the person responsive to your voice or touch?",
+        "Do they have any medical alert bracelets or tags?"
+      ]
+    },
+    {
+      "tag": "heatstroke",
+      "patterns": ["high body temperature", "confusion", "rapid heartbeat", "dry skin", "dizziness"],
+      "responses": [
+        "This might be a symptom of heatstroke. Move them to a cool place, remove excess clothing, and apply cool compresses.",
+        "Are they sweating profusely or does their skin feel hot and dry?",
+        "Do they have any underlying health conditions?"
+      ]
+    },
+    {
+      "tag": "poisoning",
+      "patterns": ["ingestion of a harmful substance", "foam from mouth", "nausea, vomiting, or diarrhea", "abdominal pain"],
+      "responses": [
+        "It appears to be a case of poisoning. Call the poison control center or emergency services immediately.",
+        "What substance was ingested? How much was consumed?",
+        "Do they have any other symptoms?"
+      ]
+    },
+    {
+      "tag": "severe bleeding",
+      "patterns": ["heavy bleeding that won't stop", "Injury due to bleeding","Bleeding from wound"],
+      "responses": [
+        "It sounds like there's severe bleeding. Apply direct pressure to the wound and call emergency services immediately.",
+        "Is the bleeding coming from a major artery or vein?",
+        "Do they have any underlying medical conditions?"
+      ]},
+  {"tag": "Major artery",
+      "patterns": ["Major artery Damaged", "bleeding from major artery","Major"],
+      "responses": [
+        "Apply direct pressure to the wound and call emergency services immediately.",
+        "Elevate the wound and try to apply a tourniquet on that area",
+        "Do they have any underlying medical conditions?"
+      ]
+    },
+  {"tag": "Tourniquet",
+      "patterns": ["how to apply tourniquet", "Assist me in applying a tourniquet","How do I apply tourniquet?"],
+      "responses": [
+        "Place the tourniquet a few inches above the bleeding site.Tighten the tourniquet until the bleeding stops."
+      ]},
+    {
+      "tag": "diabetic coma",
+      "patterns": ["unconsciousness", "difficulty breathing", "rapid heartbeat", "cold, clammy skin"],
+      "responses": [
+        "It sounds like someone might be experiencing a diabetic coma. Call emergency services immediately.",
+        "Is the person responsive to your voice or touch?",
+        "Do they have any medical alert bracelets or tags?"
+      ]
+    },
+    {
+      "tag": "asthma attack",
+      "patterns": ["wheezing", "coughing", "difficulty breathing", "chest tightness"],
+      "responses": [
+        "It sounds like someone might be having an asthma attack. Help them use their inhaler and call emergency services if their symptoms worsen.",
+        "Are they able to speak in full sentences or are they gasping for air?",
+        "Do they have any other respiratory conditions?"
+      ]
+    },
+    {
+      "tag": "anaphylaxis",
+      "patterns": ["difficulty breathing", "swelling of the face, lips, tongue, or throat", "hives, rash", "weakness or dizziness"],
+      "responses": [
+        "It sounds like someone might be having a severe allergic reaction. If they have an EpiPen, use it immediately and call emergency services.",
+        "Are they experiencing any other symptoms, such as nausea or vomiting?",
+        "Do they have any known allergies?"
+      ]
+    },
+    {
+      "tag": "cardiac arrest",
+      "patterns": ["no pulse", "not breathing", "unresponsive"],
+      "responses": [
+        "It sounds like someone might have had a cardiac arrest. Start CPR immediately and call emergency services.",
+        "Is there anyone else present who can help with CPR?",
+        "Do they have any known heart conditions?"
+      ]
+    },
+    {
+      "tag": "drowning",
+      "patterns": ["difficulty breathing or no breathing", "coughing up water", "confusion or disorientation"],
+      "responses": [
+        "It sounds like someone might be drowning. Remove them from the water and start CPR if necessary.",
+        "Are they responsive to your voice or touch?",
+        "Do they have any other injuries?"
+      ]
+    },
+    {
+      "tag": "heatstroke",
+      "patterns": ["high body temperature", "confusion", "rapid heartbeat", "dry skin", "dizziness"],
+      "responses": [
+        "It sounds like someone might be experiencing heatstroke. Move them to a cool place, remove excess clothing, and apply cool compresses.",
+        "Are they sweating profusely or does their skin feel hot and dry?",
+        "Do they have any underlying health conditions?"
+      ]
+    },
+    {
+      "tag": "CPR",
+      "patterns": ["How to give a CPR?", "What is CPR", "Process of CPR"],
+      "responses": [
+        "It sounds like someone might have been poisoned. Call the poison control center or emergency services immediately.",
+        "What substance was ingested? How much was consumed?",
+        "Do they have any other symptoms?"
+      ]
+    },
+    {
+      "tag": "broken bone",
+      "patterns": ["severe pain, swelling, and bruising", "deformity", "inability to move a limb"],
+      "responses": [
+        "It sounds like there might be a broken bone. Immobilize the injured area and call emergency services.",
+        "Is there any visible deformity or swelling at the injury site?",
+        "Does the person have any other injuries?"
+      ]
+    },
+    {
+      "tag": "head injury",
+      "patterns": ["loss of consciousness", "severe headache", "confusion", "vomiting", "bleeding from the ears or nose"],
+      "responses": [
+        "It sounds like there might be a head injury. Keep the person still and call emergency services immediately.",
+        "Are they responsive to your voice or touch?",
+        "Do they have any other symptoms, such as dizziness or blurred vision?"
+      ]
+    },
+    {      "tag":"common cold prevention",
+             "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+             "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+            },
+            {
+             "tag":"fever prevention",
+             "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+             "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+            },
+            {
+             "tag":"diabetes prevention",
+             "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+             "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+            },
+            {
+             "tag":"depression prevention",
+             "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+             "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+            },
+            {
+             "tag":"asthma prevention",
+             "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+             "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+            },
+            {
+             "tag":"Consultation",
+             "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+             "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+            }
+]
+  }
