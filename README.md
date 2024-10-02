@@ -2,7 +2,7 @@
 
 Project Overview
 Neura is a sophisticated chatbot designed to provide medical assistance to users through natural language interactions. Leveraging the power of deep learning, Neura is capable of understanding and responding to a wide range of medical queries, offering information and advice in a user-friendly manner.
-![Uploading Screenshot 2024-10-02 165645.png…]()
+
 
 Key Features
 Natural Language Understanding: Neura employs advanced natural language processing techniques to comprehend user queries, even when they are phrased in complex or ambiguous ways.
@@ -12,6 +12,8 @@ Personalized Recommendations: Neura can tailor its recommendations to individual
 User-Friendly Interface: The chatbot's interface is designed to be intuitive and easy to use, ensuring that users of all ages and technical backgrounds can benefit from its services.
 Technical Implementation
 Neura is built using a combination of popular deep learning libraries, including:
+![Screenshot 2024-10-02 165645](https://github.com/user-attachments/assets/8a7dbeb8-fbc8-43e8-99f8-ae0b3cd90e94)
+
 
 NLTK: The Natural Language Toolkit is used for tasks such as tokenization, stemming, and part-of-speech tagging.
 Keras: A high-level API built on top of TensorFlow, Keras provides a user-friendly interface for developing and training deep learning models.
