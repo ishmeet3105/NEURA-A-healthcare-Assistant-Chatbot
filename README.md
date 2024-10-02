@@ -12,7 +12,6 @@ Personalized Recommendations: Neura can tailor its recommendations to individual
 User-Friendly Interface: The chatbot's interface is designed to be intuitive and easy to use, ensuring that users of all ages and technical backgrounds can benefit from its services.
 Technical Implementation
 Neura is built using a combination of popular deep learning libraries, including:
-![Screenshot 2024-10-02 165645](https://github.com/user-attachments/assets/8a7dbeb8-fbc8-43e8-99f8-ae0b3cd90e94)
 
 
 NLTK: The Natural Language Toolkit is used for tasks such as tokenization, stemming, and part-of-speech tagging.
