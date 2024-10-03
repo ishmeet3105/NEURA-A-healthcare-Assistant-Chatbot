@@ -1,6 +1,5 @@
 # neura-A-healthcare-Assistant-Chatbot
 
-Project Overview
 Neura is a sophisticated chatbot designed to provide medical assistance to users through natural language interactions. Leveraging the power of deep learning, Neura is capable of understanding and responding to a wide range of medical queries, offering information and advice in a user-friendly manner.
 
 Project Preview:
